@@ -1,1 +1,1 @@
-"# transactionalk8s" 
+The @Transactional annotation is used to mark a method or a class as transactional, meaning that any database operations performed within the marked method or class will be executed within a transaction. If the transaction is successful, the changes will be committed to the database. If an error occurs and the transaction is rolled back, the changes will not be persisted in the database.
